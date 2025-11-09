@@ -10,9 +10,24 @@
 }
 .item{
 	flex: 0 0 150px;  
-	background-color: #4caf50;
+	background-color: green;
 	color: white;
 	text-align: center;
 	padding: 20px;
 	border-radius: 5px;
 }
+#item1 {
+  background-color: red;
+}
+
+#item2 {
+  background-color: blue;
+}
+#item3 { order: 1; }
+#item4 { order: 2; }
+#item5 { order: 3; }
+#item6 { order: 4; }
+#item7 { order: 5; }
+#item1 { order: 6; } /* item1 comes at end of row */
+#item2 { order: 7; } /* item2 goes to next line */
+#item8 { display: none; } /* hide item8 if not needed */
